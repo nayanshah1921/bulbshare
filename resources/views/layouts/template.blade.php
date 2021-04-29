@@ -1,0 +1,5 @@
+@include('layouts.header',['data'=>$data])
+@include('layouts.sidebar',['data'=>$data])
+@include('layouts.breadcrumb',['data'=>$data])    
+@yield('content')
+@include('layouts.footer',['data'=>$data])
